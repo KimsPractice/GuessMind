@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Realtime Drawing Game built with SocketIO, Gulp, NodeJS",
   "main": "index.js",
-  "scripts": {
-    "dev:server": "nodemon --exec babel-node src/server"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KimsPractice/GuessMind.git"
+  },
+  "scripts": {
+    "dev:server": "nodemon --exec babel-node src/server"
   },
   "author": "Kimpractice",
   "license": "ISC",
@@ -17,11 +17,17 @@
   },
   "homepage": "https://github.com/KimsPractice/GuessMind#readme",
   "dependencies": {
-    "@babel/core": "^7.7.5",
-    "@babel/node": "^7.7.4",
-    "@babel/preset-env": "^7.7.6",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
     "express": "^4.17.1",
-    "nodemon": "^2.0.2",
+    "nodemon": "^2.0.4",
+    "pug": "^2.0.4",
     "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
   }
 }
